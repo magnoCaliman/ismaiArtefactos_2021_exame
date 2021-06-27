@@ -1,12 +1,32 @@
-* Exame Artefactos Digitais - 2021
+* EXAME ARTEFACTOS DIGITAIS - 2021
+** ENUNCIADO DO EXAME:
+- Abaixo tens listados cinco circuitos eletrônicos. A partir da descrição e dos [[./assets][videos de demonstração]], reproduza seus comportamentos construindo os circuitos na protoboard, e programando seus algoritmos com Arduino.
+- Cada questão tem valor de entrega de 4 pontos, somando os 20 valores do semestre.
 
-* Questões
-- aula 06.2 -> linhaLed_repeticao
-- aula 07.1 -> led (botão com timer)
-- aula 09.1 -> toneRandomPot (teremin com pot + buzzer)
-- aula 10.1 -> brilhoBotoes / fadeInOut
+** CIRCUITOS
+*** ledTimer
+- Para um led, crie um timer de desligamento: partindo de um led apagado, ao apertar um botão o led se acende e após 3 segundos se desliga.
+   
+*** tonePot
+- Utilize a leitura dos valores de um potenciômetro para controlar a frequência de um piezo do tipo buzzer.
+   
+*** linhaLed_repeticao
+- Em uma linha de 9 leds, selecionar um randomicamente e piscar 3 vezes. Repetir o processo em loop.
+   - Obs.: Na resolução devem ser utilizados ~arrays~ e loops ~for~.
+   
+*** brilhoBotoes
+- Crie um circuito onde dois botões controlam o brilho de um led: ao permanecer pressionado um dos botões, o led gradualmente fica mais brilhante, e vice-versa.
+   
+*** fadeInOut
+- Em um led, crie um efeito de fade-in e fade-out automático. Ou seja, o led deve gradualmente se apagar e acender, em loop, sem nenhum input do usuário.
+   
+** FORMATO DE ENTREGA
+- Pasta com o /nome de cada questão/ contendo:
+  - Video demonstrando o circuito a funcionar, e as conexões feitas na protoboard
+  - Arquivo ~.ino~ com o código utilizado
+- Agrupar /toda a entrega em arquivo único/ ~.zip~ ou ~.rar~ e fazer upload no portal da ISMAI até as *23:59 de 30/junho*.
 
-** 1 
-  
-* Entrega
-
+** OBSERVAÇÕES FINAIS
+- O exame deve ser realizado de forma *individual*, sem consulta a nenhum colega.
+- A detecção de plágio ou cópia de código entre os participantes do exame /ou alunos que já foram aprovados/ implicará na instantânea reprovação de *ambos os alunos*.
+- Caso eu julgue necessário, após a entrega será agendada chamada no Teams onde o aluno deverá responder questões sobre o código entregue, estando assim a nota condicionada às respostas dadas.
