@@ -1,0 +1,12 @@
+* Exame Artefactos Digitais - 2021
+
+* Questões
+- aula 06.2 -> linhaLed_repeticao
+- aula 07.1 -> led (botão com timer)
+- aula 09.1 -> toneRandomPot (teremin com pot + buzzer)
+- aula 10.1 -> brilhoBotoes / fadeInOut
+
+** 1 
+  
+* Entrega
+
